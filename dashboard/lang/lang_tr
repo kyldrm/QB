@@ -1,0 +1,364 @@
+<?php
+
+/*******************************************************************************
+*                                                                              *
+*                               Turkish	                                       *
+*                                                                              *
+*******************************************************************************/
+
+////////////////////////////////////////
+//DASHBOARD MENU
+///////////////////////////////////////
+
+// main menu tab
+$L['ANNOUNCEMENTS'] = 'Duyurular';
+$L['CHAT_CONNECT_TXT'] = 'Bağlanmak için tıklayın ';
+$L['DEV_REPO_TXT'] = 'QuickBox Geliştirme Repo`sundasınız';
+$L['DOWNLOADS'] = 'İndirilenler';
+$L['ISSUE_REPORT_TXT'] = 'Bir sorunu bildirin';
+$L['JOIN_US_TXT'] = 'Canlı Sohbet`de Bize Katılın!';
+$L['LANG_SELECT'] = 'Dil Seçin';
+$L['MAIN_MENU'] = 'Ana Menu';
+$L['MARKETPLACE'] = 'Pazaryeri';
+$L['THEME_SELECT'] = 'Tema Seçin';
+$L['WEB_CONSOLE'] = 'Web Konsolu';
+$L['DONATE'] = 'Bağış';
+
+// plugin menu tab
+$L['PLUGIN_MENU'] = 'Eklenti Menüsü';
+$L['RPLUGIN_MENU'] = 'ruTorrent Eklenti Menüsü';
+$L['PMENU_NOTICE_TXT'] = 'Sadece eklenti ismine tıklayarak ruTorrent eklentilerini kolayca yükleyin ve kaldırın';
+$L['PLUGINS'] = 'Eklentiler';
+
+// quick help menu tab
+$L['HELP_COMMANDS'] = 'Yardım Komutları ve Daha Fazlası';
+$L['QUICK_SYSTEM_TIPS'] = 'Hızlı Sistem İpuçları';
+$L['CLEAN_MEM_TXT'] = 'Sisteminizin, Ram Önbelleğini temizlemeye karar verdiğinizde yukarıdaki komutu root olarak kullanın';
+$L['DISKTEST_TXT'] = 'Diskinize okuma/yazma testi yapmak için bu komutu kullanın.';
+$L['FIXHOME_TXT'] = 'Hızlıca /home dizini ayarlarınızı yapmak için bu komutu kullanın.';
+// seedbox commands section
+$L['SEEDBOX_COMMANDS'] = 'Seedbox Komutları';
+$L['CHANGEUSERPASS_TXT'] = 'Bu komut SSH kullanıcı şifrenizi değiştirmenizi sağlar.';
+$L['CREATESEEDBOXUSER_TXT'] = 'Bu komut sunucunuzda yeni bir Seedbox kullanıcısı oluşturmanızı sağlar.';
+$L['DELETESEEDBOXUSER_TXT'] = 'Bu komutu SSH üzerinden yazdığınızda sunucunuzdan kullanıcı silebilirsiniz. Silmeniz gereken kullanıcı adı sizden istenecek.';
+$L['SETDISK_TXT'] = 'Bir kullanıcıya vermek istediğiniz disk alanı miktarını ayarlamak için bu komutu ssh üzerinden yazın..';
+$L['SHOWSPACE_TXT'] = 'Kullanıcılar tarafından şu anda kullanılan disk alanı miktarını görmek için yukarıdaki komutu root olarak kullanın..';
+$L['UPGRADEDELUGE_TXT'] = 'Varsa, Deluge`yi en yeni sürüme yükseltmek için bu komutu ssh olarak yazın..';
+// packages commands section
+$L['PACKAGE_COMMANDS'] = 'Paket Komutları';
+$L['QUICKVPN_TXT'] = 'Kendi VPN sunucunuzu bir dakikadan az bir süre içinde kurmak için bu komutu ssh olarak yazın ve VPN sunucusunu kullanmak için yeni kullanıcı sertifikalarını yönetin ve oluşturun.';
+$L['SETUPPYLOAD_TXT'] = 'PyLoad kurulum komut dosyasını çalıştırmak için bu komutu SSH üzerinden yazın.';
+$L['UPGRADEBTSYNC_TXT'] = 'Varsa, BTSync`i en yeni sürüme yükseltmek için bu komutu SSH üzerinden yazın..';
+$L['UPGRADEJACKETT_TXT'] = 'Varsa, Jackett`i en yeni sürüme yükseltmek için bu komutu SSH üzerinden yazın.';
+$L['UPGRADEOMBI_TXT'] = 'Mevcut olduğunda Ombi`yi en yeni sürüme yükseltmek için bu komutu SSH üzerinden yazın.';
+$L['UPGRADEPLEX_TXT'] = 'Mevcut olduğunda Plex`i en yeni sürüme yükseltmek için bu komutu SSH üzerinden yazın.';
+$L['UPGRADEPYLOAD_TXT'] = 'Mevcut olduğunda pyLoad`u en yeni sürüme yükseltmek için bu komutu SSH üzerinden yazın.';
+$L['UPGRADESABNZBD_TXT'] = 'Mevcut olduğunda Sabnzbd`yi en yeni sürüme yükseltmek için bu komutu SSH üzerinden yazın.';
+// essential user commands section
+$L['ESSENTIAL_USER_COMMANDS'] = 'Temel Kullanıcı Komutları';
+$L['RELOAD_TXT'] = 'kullanıcı`nın rtorrent`i SSH üzerinden yeniden başlatmasını sağlar.';
+$L['SCREEN_RTORRNENT_TXT'] = 'kullanıcı`nın rtorrent`i SSH üzerinden yeniden başlatmasını sağlar.';
+$L['SCREEN_IRSSI_TXT'] = 'kullanıcı`nın irssi`i SSH üzerinden yeniden başlatmasını sağlar.';
+
+
+////////////////////////////////////////
+//DASHBOARD WIDGET TITLES
+///////////////////////////////////////
+
+// services status widget
+$L['SERVICE_CONTROL_CENTER'] = 'Hizmet Kontrol Merkezi';
+
+// services status widget
+$L['SERVICE_STATUS'] = 'Hizmet Durumu';
+
+// restart services widget
+$L['RESTART_SERVICES'] = 'Hizmetleri Yeniden Başlat';
+
+// service controller widget
+$L['ENABLE_DISABLE_SERVICES'] = 'Etkin/Devre Dışı';
+
+// package management center widget
+$L['PACKAGE_MANAGEMENT_CENTER'] = 'Paket Yönetim Merkezi';
+
+// bandwidth data widget
+$L['BANDWIDTH_DATA'] = 'Bant genişliği Verisi ';
+
+// disk status widget
+$L['YOUR_DISK_STATUS'] = 'Disk Durumu';
+
+// memory status widget
+$L['SYSTEM_RAM_STATUS'] = 'Ram Durumu';
+
+// cpu status widget
+$L['CPU_STATUS'] = 'CPU Durumu';
+
+// server load widget
+$L['SERVER_LOAD'] = 'Sunucu Yükü';
+
+// recent updates widget
+$L['COMPARE_COMMITS'] = 'mevcut durumunuzu en son işlemlerle karşılaştırın.';
+$L['CURRENT_COMMIT'] = 'Mevcut işlem durumunuzu görüntüleyin';
+$L['CURRENT_VERSIONS_CHANGELOG'] = 'Mevcut sürümlerinizi görüntüleyin.';
+$L['LATEST_COMMIT'] = 'en yeni.';
+$L['QUICKBOX_COMMIT'] = 'Bu QuickBox commit`indesiniz - ';
+$L['RECENT_UPDATES'] = 'Son Etkinlik';
+$L['RECENT_UPDATES_TXT'] = 'Feed`i görüntülemek için fare tekerinizle ilerleyin.';
+
+////////////////////////////////////////
+//PACKAGE MANAGEMENT CENTER
+///////////////////////////////////////
+
+// package management center notice
+$L['PMC_NOTICE_TXT'] = '<strong>Dikkat!</strong> Bu seçeneklerin bir yazılım paketini etkinleştirme ve devre dışı bırakmayla aynı olmadığını lütfen unutmayın. Bu seçenekler, yüklemek veya kaldırmak için tasarlanmıştır.';
+
+// package management center column headers
+$L['NAME'] = 'Adı';
+$L['DETAILS'] = 'Detayı';
+$L['AVAILABILITY'] = 'Kullanılabilirlik';
+
+// packages
+$L['BTSYNC_DETAILS'] = 'BitTorrent, Inc tarafından BitTorrent Sync tescilli bir eşler arası dosya senkronizasyon aracıdır.';
+$L['COUCHPOTATO'] = 'Usenet veya torrent yoluyla filmleri otomatik olarak, kolayca ve en iyi kalitede en kısa zamanda indirin.';
+$L['CSF'] = 'CSF olarak da bilinen ConfigServer Güvenlik Duvarı, güvenlik duvarı ayarlarınızı yönetmek için kullanımı kolay, gelişmiş bir arayüz sağlarken sunucunuz için daha iyi güvenlik sağlamak üzere oluşturulmuş bir güvenlik duvarı yapılandırma komut dosyasıdır.';
+$L['DELUGE'] = 'Deluge, hafif, Açık Kaynak ve çapraz platform olan bir BitTorrent istemcisidir.';
+$L['EMBY'] = 'Emby Server, kullanıcıların multimedya - müzik, video ve resim dosyalarının yasal kişisel kopyalarını barındırmasını sağlayan bir istemci-sunucu yazılım paketidir. ... Emby istemci yazılımı, Android TV gibi televizyonlar için mobil cihazlara ve belirli set üstü kutulara kurmanız gereken bir uygulamadır.';
+$L['HEADPHONES'] = 'Headphones Python`da yazılmış NZB ve Torrent için otomatik bir müzik indiricisidir. SABnzbd, NZBget, Transmission, µTorrent, Deluge ve Blackhole`u destekler.';
+$L['JACKETT'] = 'Favori Trackerlarınız için API desteği.';
+$L['MEDUSA'] = 'Diziler için Dosya yöneticisi, Favori dizileriniz yayınlandığınında büyüsünü yapar. Manuel aramayı destekler diğer özellikler için, <a href="https://github.com/pymedusa/Medusa" target="_blank">Github</a> adresinden ziyaret edebilirsiniz.';
+$L['NEXTCLOUD'] = 'Nextcloud açık kaynak kodludur, kendi kendini barındırılan dosya senkronizasyonu, paylaşma ve iletişim uygulama platformu. Dosyalarınıza, kişilerinize, takvimlerine erişin ve senkronize edin ve cihazlarınız arasında iletişim kurun ve işbirliği yapın. Verileriniz ile neler olduğuna ve kimin kime erişebileceğine siz karar verin!';
+$L['NZBGET'] = 'NZBGet, nzb dosyalarında verilen bilgilere dayanarak Usenet`ten dosyaları indiren bir ikili indiricidir. NZBGet C ++ ile yazılmıştır ve olağanüstü performansı ve verimliliği ile bilinir.';
+$L['NZBHYDRA'] = 'NZBHydra, NZB dizinleyicileri için bir meta aramadır. Bir dizi ham ve yeniznab tabanlı dizinleyiciye kolay erişim sağlar. Tüm dizinleyicilerinizi tek bir yerden arayabilir ve Sonarr veya CouchPotato gibi araçlar için dizinleyici kaynağı olarak kullanabilirsiniz..';
+$L['OMBI'] = 'Ombi, kütüphaneye eklenmesini istediğin şeyler için güzel ve kullanımı kolay bir arayüz sunar. CouchPotato, SickRage ve Sonarr ile bütünleşir.';
+$L['OVPN'] = 'SSL/TLS tabanlı kullanıcı alanlı VPN. Linux, Solaris, OpenBSD, FreeBSD, NetBSD, Mac OS X, and Windows 2000/XP+ destekler.';
+$L['PLEX'] = 'Plex, içeriğinizi herhangi bir Plex özellikli cihazda oynatmanızı sağlar.';
+$L['PLEXPY'] = 'Plex Media Server için izleme, analiz ve bildirimler için bir python tabanlı web uygulaması';
+$L['PYLOAD'] = 'pyLoad, File-Host web siteleri, video siteleri ve HTTP / FTP bağlantıları için bir indirme yöneticisidir. Desteklenen sitelerin listesi bulunabilir <a href="https://github.com/pyload/pyload/wiki/Supported-Hoster" target="_blank">here</a>';
+$L['QUASSEL'] = 'Quassel IRC, Qt4 çerçevesine dayalı modern, çapraz platformlu bir IRC istemcisidir.';
+$L['QUOTAS'] = 'Linux`un bu özelliği, sistem yöneticisinin, bir kullanıcı veya grubun kullanabileceği maksimum miktarda disk alanı ayırmasına izin verir.';
+$L['RADARR'] = 'Radarr, Usenet ve BitTorrent aracılığıyla filmleri otomatik olarak indirmek için yeniden işlenen bağımsız bir Sonarr çataldır.<br>
+Proje, CouchPotato gibi diğer Usenet / BitTorrent film indiricilerinden esinlenmiştir..';
+$L['RAPIDLEECH'] = 'Rapid Leech, uploaded.net, Rapidshare.com ve 120`den fazla popüler yükleme / indirme sitelerinde kullanılmak üzere ücretsiz bir sunucu transfer betiğidir.';
+$L['SABNZBD'] = 'SABnzbd, çok platformlu bir ikili newsgroup indiricisidir. Program arka planda çalışır ve Usenet`ten dosyaların doğrulanmasını ve ayıklanmasını basitleştirir. SABnzbd, Usenet`e doğrudan göz atmak yerine NZB dosyalarını (.torrent dosyalarına benzer, ancak Usenet için) kullanır.';
+$L['SICKGEAR'] = 'SickGear is Sick-Beard evolved. TV keyfinizi, yenilik, kanıtlanmış istikrar ve güvenilirlik ile otomatikleştirin.';
+$L['SICKRAGE'] = 'Diziler için Dosya Yöneticisi, En sevdiğiniz dizilerin yeni bölümlerini takip eder ve yayınlandıklarında büyüsünü yapar.';
+$L['SONARR'] = 'Sonarr torrent ve Usenet ile çalışan TV Dizisi yönetim aracıdır.';
+$L['SUBSONIC'] = 'Subsonic web-tabanlı bir medya sunucusudur. Java ile yazılmıştır, yani Java desteği olan tüm sistemlerde çalışabilr. Subsonic, aynı anda birden fazla istemciye yayını destekler ve tüm ortamları (MP3, AAC ve Ogg dahil) destekler.';
+$L['SYNCTHING'] = 'BitTorrent ile Açık Kaynaklı Dosya Senkronizasyonu';
+$L['TRANSMISSION'] = 'Transmission kolay ve güçlü bir kullanım için tasarlanmıştır, Dizin takibi, kötü eş engelleme, web arayüzü bir kaç tıklama ile yapılandırılabilir. Ubuntu, varsayılan BitTorrent istemcisi olarak seçtiğinde, en önemli nedenlerden biri kolay öğrenme eğrisidir. ';
+$L['X2GO'] = 'X2Go, NX teknoloji protokolünü kullanan Linux için açık kaynaklı bir uzak masaüstü yazılımıdır.';
+$L['ZNC'] = 'ZNC bir IRC network bouncer veya BNC'dir. İstemciyi gerçek IRC sunucusundan ve ayrıca seçilen kanallardan ayırabilir.';
+
+// package management center buttons
+$L['CLI'] = 'Sadece Web Konsolu';
+$L['INSTALL'] = 'Yükle';
+$L['INSTALLED'] = 'Yüklendi';
+$L['OVPN_TOOLTIP_I'] = 'Bu özelliğe web-konsolundan bunu yazarak erişin: quickVPN';
+$L['OVPN_TOOLTIP_U'] = 'Bu özelliğe web-konsolundan bunu yazarak erişin: quickVPN';
+$L['BOX'] = 'Sadece SSH';
+$L['BOX_TOOLTIP_CSF'] = 'Bunu ssh üzerinden yazarak bu özelliğe erişin: box install csf';
+$L['BOX_TOOLTIP_NEXTCLOUD'] = 'Bunu ssh üzerinden yazarak bu özelliğe erişin: box install nextcloud';
+$L['BOX_TOOLTIP_ZNC'] = 'Bunu ssh üzerinden yazarak bu özelliğe erişin: box install znc';
+
+////////////////////////////////////////
+//BANDWIDTH & DATA TABLES
+///////////////////////////////////////
+
+// column headers and dropdown toggle button
+$L['NETWORK'] = 'Ağ';
+$L['UPLOAD'] = 'Yükleme';
+$L['DOWNLOAD'] = 'İnidirme';
+$L['VIEW_ADDITIONAL_BANDWIDTH_DETAILS'] = 'Trafik Ayrıntıları';
+
+// main table headers
+$L['Summary'] = 'Özet';
+$L['Top 10 days'] = 'En yüksek 10 Gün';
+$L['Last 24 hours'] = 'Son 24 Saat';
+$L['Last 30 days'] = 'Son 30 Gün';
+$L['Last 12 months'] = 'Son 12 Ay';
+
+// traffic table columns
+$L['In'] = 'İçeri';
+$L['Out'] = 'Dışarı';
+$L['Total'] = 'Toplam';
+
+// summary rows
+$L['This hour'] = 'Bu saat';
+$L['This day'] = 'Bu gün';
+$L['This month'] = 'Bu ay';
+$L['All time'] = 'Tüm Zamanlar';
+
+// date formats
+$L['datefmt_days'] = '%d %B';
+$L['datefmt_days_img'] = '%d';
+$L['datefmt_months'] = '%B %Y';
+$L['datefmt_months_img'] = '%b';
+$L['datefmt_hours'] = '%l%p';
+$L['datefmt_hours_img'] = '%l';
+$L['datefmt_top'] = '%d %B %Y';
+
+
+////////////////////////////////////////
+//DISK STATUS WIDGET
+///////////////////////////////////////
+
+$L['FREE'] = 'Boş';
+$L['USED'] = 'Kullanımda';
+$L['SIZE'] = 'Boyut';
+$L['DISK_SPACE'] = 'Disk Alanı';
+$L['PERCENTAGE_TXT_1'] = 'Disk alanının';
+$L['PERCENTAGE_TXT_2'] = 'kadarını kullandın';
+$L['RTORRENTS_TITLE'] = 'rtorrent`deki Torrentler';
+$L['DTORRENTS_TITLE'] = 'deluge`deki Torrentler';
+$L['TORRENTS_LOADED_1'] = 'Mevcut';
+$L['TORRENTS_LOADED_2'] = 'torrent var';
+
+
+////////////////////////////////////////
+//SYSTEM RAM STATUS WIDGET
+///////////////////////////////////////
+
+// physical memory
+$L['PHYSICAL_MEMORY_TITLE'] = 'Fiziksel Bellek Kullanımı';
+$L['PHYSICAL_MEMORY_USED_TXT'] = 'kullanılan';
+$L['PHYSICAL_MEMORY_IDLE_TXT'] = 'boşta';
+
+//cached memory
+$L['CACHED_MEMORY_TITLE'] = 'Önbelleğe Alınan Bellek Kullanımı ';
+$L['CACHED_MEMORY_USAGE_TXT'] = 'Önbellek Kullanımı';
+$L['CACHED_MEMORY_BUFFERS_TXT'] = 'Tampon';
+
+// real memory
+$L['REAL_MEMORY_TITLE'] = 'Gerçek Bellek Kullanımı';
+$L['REAL_MEMORY_USAGE_TXT'] = 'Gerçek Bellek Kullanımı';
+$L['REAL_MEMORY_FREE_TXT'] = 'Boşta gerçek bellek kullanımı';
+
+// swap usage
+$L['SWAP_TITLE'] = 'Swap Kullanımı';
+$L['SWAP_TOTAL_TXT'] = 'SWAP Alanı';
+$L['SWAP_USED_TXT'] = 'kullanımda';
+$L['SWAP_IDLE_TXT'] = 'boşta';
+
+// total ram
+$L['TOTAL_RAM'] = 'Toplam RAM';
+
+// clean mem button
+$L['CLEAR_CACHE'] = 'Bellek Önbelleğini Temizle';
+
+
+////////////////////////////////////////
+//CPU STATUS WIDGET
+///////////////////////////////////////
+
+// used percentage
+$L['CPU_USED'] = 'kullanımda';
+
+// idle percentage
+$L['CPU_IDLE'] = 'boşta';
+
+
+////////////////////////////////////////
+//SERVER LOAD WIDGET
+///////////////////////////////////////
+
+$L['SL_TXT'] = 'Bu, sunucularınızın mevcut yük ortalamasıdır';
+$L['UPTIME'] = 'Çalışma Süresi';
+
+
+////////////////////////////////////////
+//SERVICE TOGGLES
+///////////////////////////////////////
+
+$L['ENABLED'] = 'Etkin';
+$L['DISABLED'] = 'Deve Dışı';
+
+$L['INSTALLED'] = 'Kurulmuş';
+$L['UNINSTALLED'] = 'Kaldırıldı';
+$L['INSTALLING'] = 'Kuruluyor';
+$L['UNINSTALLING'] = 'Kaldırılıyor';
+
+
+////////////////////////////////////////
+//STATUS BUTTONS
+///////////////////////////////////////
+
+$L['REFRESH'] = 'Yenile';
+$L['UPDATE'] = 'Güncelleyiciyi Çalıştır';
+
+$L['CANCEL'] = 'İptal';
+$L['AGREE'] = 'Anladım, Yap!';
+
+$L['CLOSE_REFRESH'] = 'Kapat & Yenile';
+
+////////////////////////////////////////
+//ADDITIONAL DICTIONARY
+///////////////////////////////////////
+
+$L['IDLE'] = 'Boşta';
+$L['TOTAL'] = 'Toplam';
+$L['USED'] = 'Kullanımda';
+
+$L['DAYS_L'] = 'gün';
+$L['HOURS_L'] = 'saat';
+$L['MINUTES_L'] = 'dk';
+$L['SECONDS_L'] = 'sn';
+$L['IDLE_L'] = 'boşta';
+$L['TOTAL_L'] = 'toplam';
+$L['USED_L'] = 'kullanımda';
+
+
+////////////////////////////////////////
+//MODALS & POPUP NOTICES
+///////////////////////////////////////
+
+//MODAL TITLES
+$L['UNINSTALL_TITLE'] = 'Kaldır';
+
+//MODAL TEXT
+$L['UNINSTALL_BTSYNC_TXT'] = 'BitTorrent Sync`i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ve paylaşımlı klasör ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>BitTorrent Sync`i istediğiniz zaman yeniden yükleyebilirsiniz, ancak depolama yolunuz ve bağlı klasör ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_CSF_TXT'] = 'CSF yi sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Config Server Güvenlik Duvarı`nı (CSF) istediğiniz zaman yeniden yükleyebilirsiniz, ancak yapılandırma ayarlarınız (herhangi bir değişiklik yapıldıysa) varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_COUCHPOTATO_TXT'] = 'CouchPotato yi sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırmalarınızı ve ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>CouchPotato yi istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_DELUGE_TXT'] = 'Deluge yi sisteminizden kaldırmak üzeresiniz.<br/><br/>This will completely remove all of your configuration and shared folder settings for <strong>all users</strong>... this action is irreversible. <br/><br/>Deluge yi istediğiniz zaman yeniden yükleyebilirsiniz, ancak depolama yolunuz ve bağlı klasör ayarlarınız varsayılan olarak sıfırlanır.';
+$L['UNINSTALL_EMBY_TXT'] = 'Emby yi sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ve paylaşımlı klasör ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Emby yi istediğiniz zaman yeniden yükleyebilirsiniz, depolama yolunuz ve bağlı klasör ayarlarınız varsayılana sıfırlanır.';
+$L['UNINSTALL_HEADPHONES_TXT'] = 'Headphones sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ve paylaşımlı klasör ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/> Headphones i istediğiniz zaman yeniden yükleyebilirsiniz, depolama yolunuz ve bağlı klasör ayarlarınız varsayılana sıfırlanır.';
+$L['UNINSTALL_JACKETT_TXT'] = 'Jackett i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırmalarınızı ve ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Jackett i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_NEXTCLOUD_TXT'] = 'Nextcloud u sisteminizden kaldırmak üzeresiniz..<br/><br/>Bu, tüm yapılandırmalarınızı ve ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>NextCloud u istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_NZBGET_TXT'] = 'NZBGET i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırmalarınızı ve ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>NZBGet i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_NZBHYDRA_TXT'] = 'HYDRA i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırmalarınızı ve ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>NZBHydra i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_PLEX_TXT'] = 'Plex i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ve kitaplık ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Plex i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_PLEXPY_TXT'] = 'Plexpy yi sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ve kitaplık ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>PlexPy i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_OMBI_TXT'] = 'Ombi yi sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ve kitaplık ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Ombi yi istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_PYLOAD_TXT'] = 'Pyload u sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>pyLoad i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_QUASSEL_TXT'] = 'Quassel i sisteminizden kaldırmak üzeresiniz.<br/><br/> Bu, Quassel`i ve tüm ayarları / depolanmış birikimlerini sisteminizden tamamen kaldırır.';
+$L['UNINSTALL_QUOTAS_TXT'] = 'Quotas i sisteminizden kaldırmak üzeresiniz.<br/><br/> Bu kullanıcı kotalarını ve onlarla ilişkili tüm ayarları tamamen kaldırır.';
+$L['UNINSTALL_RADARR_TXT'] = 'Radarr i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Radarr i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_RAPIDLEECH_TXT'] = 'Rapidleech i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Rapidleech i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_SABNZBD_TXT'] = 'Sabnzbd i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>ABnzbd i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_SICKGEAR_TXT'] = 'Sickgear i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>SickGear i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_SICKRAGE_TXT'] = 'Sickrage i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>SickRage i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_MEDUSA_TXT'] = 'Medusa i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz.<br/><br/>Medusa yi istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_SONARR_TXT'] = 'Sonarr i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Sonarr-NzbDrone i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_SUBSONIC_TXT'] = 'Subsonic i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Subsonic i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_SYNCTHING_TXT'] = 'Syncthing i sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Syncthing i istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_TRANSMISSION_TXT'] = 'Transmission u sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırma ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>Transmission u istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['UNINSTALL_X2GO_TXT'] = 'X2GO yu sisteminizden kaldırmak üzeresiniz.<br/><br/> sisteminizden x2goserver ve xfce4 masaüstü ortamını tamamen kaldıracaktır.';
+$L['UNINSTALL_ZNC_TXT'] = 'ZNC yi sisteminizden kaldırmak üzeresiniz.<br/><br/>Bu, tüm yapılandırmalarınızı ve ayarlarınızı tamamen kaldıracak ... bu işlem geri alınamaz. <br/><br/>ZNC`yi istediğiniz zaman yeniden yükleyebilirsiniz, ancak ayarlarınız varsayılana sıfırlanacaktır.';
+$L['THEME_CHANGE_TXT'] = 'Tema değiştirmek üzeresiniz. Tema, yenilendikten sonra sizin için doğru şekilde görüntülenmezse, muhtemelen tarayıcınızın önbelleğini temizlemeniz ve yeniden denemeniz gerekir.';
+
+//SYSTEM RESPONSE MODAL
+$L['SYSTEM_RESPONSE_TITLE'] = 'Sistem Yanıtı';
+
+//GRITTER POPUPS
+$L['UNINSTALLING_TITLE'] = 'Kalıdırılıyor';
+
+//GRITTER TEXT
+$L['UNINSTALLING_TXT_1'] = 'Lütfen biraz Bekleyin';
+$L['UNINSTALLING_TXT_2'] = 'sisteminizden kaldırılıyor';
+
+
+////////////////////////////////////////////////////////////////////////////
+// SAMPLE
+// $L['SAMPLE'] = 'Sample';
+////////////////////////////////////////////////////////////////////////////
+
+
+?>
